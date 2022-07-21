@@ -1,7 +1,7 @@
 # YouTubeReborn
 iOS YouTube 增强插件，支持最新版YouTube v17.28.2
 
-# 功能介绍
+## 功能介绍
 
 - 去除广告
 - 启用后台播放
@@ -13,11 +13,11 @@ iOS YouTube 增强插件，支持最新版YouTube v17.28.2
 - 开启画中画功能
 - 允许蜂窝数据播放高清视频
 
-# 下载
+## 下载
 
 https://github.com/dlxg/YouTube-Reborn/releases
 
-# 截图
+## 截图
 
 <img src="https://raw.githubusercontent.com/dlxg/YouTube-Reborn/main/Chromium/images/index.JPG" style="width:30%;" /> <img src="https://raw.githubusercontent.com/dlxg/YouTube-Reborn/main/Chromium/images/Video Options.JPG" style="width:30%;" />
 
