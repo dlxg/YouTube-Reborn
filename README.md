@@ -19,9 +19,6 @@ https://github.com/dlxg/YouTube-Reborn/releases
 
 # 截图
 
-<img src="Chromium/images/index.JPG" style="zoom:30%;" />
-<img src="Chromium/images/Video Options.JPG" style="zoom:30%;" />
-<img src="Chromium/images/Overlay Options.JPG" style="zoom:30%;" />
-<img src="Chromium/images/TabBar Options.JPG" style="zoom:30%;" />
-<img src="Chromium/images/Shorts Options.JPG" style="zoom:30%;" />
-<img src="Chromium/images/Other Options.JPG" style="zoom:30%;" />
+<img src="Chromium/images/index.JPG" style="width:30%;" /> <img src="Chromium/images/Video Options.JPG" style="width:30%;" />
+<img src="Chromium/images/Overlay Options.JPG" style="width:30%;" /> <img src="Chromium/images/TabBar Options.JPG" style="width:30%;" />
+<img src="Chromium/images/Shorts Options.JPG" style="width:30%;" /> <img src="Chromium/images/Other Options.JPG" style="width:30%;" />
