@@ -1,0 +1,16 @@
+{
+    "name": "YouTube Reborn",
+    "description": "YouTube Customizer",
+    "version": "0.0.4",
+    "manifest_version": 3,
+    "permissions": ["storage"],
+    "action": {
+        "default_icon": "images/youtubereborn.png"
+    },
+    "options_page": "options/options.html",
+    "content_scripts": [{
+        "js": ["modifier.js", "js/jquery-3.6.0.js"],
+        "matches": ["https://youtube.com/*", "https://www.youtube.com/*"],
+        "run_at": "document_idle"
+    }]
+}

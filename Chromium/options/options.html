@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Lillie">
+
+    <title>YouTube Reborn 设置</title>
+
+    <link href="options.css" rel="stylesheet">
+</head>
+<body>
+    <br><h2 style="margin:0;padding:0;padding-bottom:5px;">YouTube Reborn</h2>
+    <label>Version: 0.0.4</label>
+    <br><br><button id="save">保存设置</button>
+    <label id="status"></label>
+
+    <br><br><hr><br>
+
+    <label>全局设置</label><br><br>
+    <label><input type="checkbox" id="blockAdsCheckBox">屏蔽广告</label><br><br>
+    <label> 由于manifest v3, 屏蔽广告可能无效<a target="_blank" href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">uBlock Origin</a> or <a target="_blank" href="https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg">AdGuard</a></label>
+    <br><br>
+    <select name="qualities" id="qualities">
+        <option value="auto">Auto</option>
+        <option value="best">Best</option>
+        <option value="2160p">2160p</option>
+        <option value="1440p">1440p</option>
+        <option value="1080p">1080p</option>
+        <option value="720p">720p</option>
+        <option value="480p">480p</option>
+        <option value="360p">360p</option>
+        <option value="240p">240p</option>
+        <option value="144p">144p</option>
+    </select>
+    <label>默认视频质量</label><br><br>
+    <label><input type="checkbox" id="disablePlayOnStartCheckBox">禁用启动时播放</label>
+
+    <br><br><hr><br>
+
+    <label>视频选项</label><br><br>
+    <label><input type="checkbox" id="enablePictureInPictureButtonCheckBox">开启画中画</label><br>
+    <label><input type="checkbox" id="disableAutoPlayCheckBox">禁用自动播放</label><br>
+    <label><input type="checkbox" id="disableCaptionsCheckBox">禁用标题</label><br>
+    <label><input type="checkbox" id="disableHeatwaveCheckBox">禁用热点</label>
+
+    <br><br><hr><br>
+
+    <label>导航栏选项</label><br><br>
+    <label><input type="checkbox" id="hideVoiceSearchButtonCheckBox">隐藏语音搜索按钮</label><br>
+    <label><input type="checkbox" id="hideYouTubeLogoCheckBox">隐藏 YouTube Logo</label><br>
+    <label><input type="checkbox" id="hideCountrySymbolNextToLogoCheckBox">隐藏图标旁边的国家符号</label>
+
+    <br><br><hr><br>
+
+    <label>播放界面选项</label><br><br>
+    <label><input type="checkbox" id="hideAutoPlaySwitchCheckBox">隐藏自动播放开关</label><br>
+    <label><input type="checkbox" id="hideCaptionsButtonCheckBox">隐藏标题按钮</label><br>
+    <label><input type="checkbox" id="hideInfoCardButtonCheckBox">隐藏信息卡按钮</label><br>
+    <label><input type="checkbox" id="hideMiniplayerButtonCheckBox">隐藏迷你播放器按钮</label><br>
+    <label><input type="checkbox" id="hideTheaterModeButtonCheckBox">隐藏剧院模式按钮</label><br>
+    <label><input type="checkbox" id="hidePreviousButtonCheckBox">隐藏上一个按钮</label><br>
+    <label><input type="checkbox" id="hideNextButtonCheckBox">隐藏下一个按钮</label>
+
+    <br><br><hr><br>
+
+    <label>颜色选项</label><br><br>
+    <input type="checkbox" id="playerBarColourCheckBox"><input type="color" id="playerBarColour"><label style="padding-left:5px;">播放条</label>
+
+    <br><br><hr><br>
+
+    <label>其他选项</label><br><br>
+    <label><input type="checkbox" id="hideRelatedVideosSectionCheckBox">隐藏相关视频</label><br>
+    <label><input type="checkbox" id="hideCommentsSectionCheckBox">隐藏评论</label>
+
+    <br><br><hr><br>
+
+    <script src="options.js"></script>
+</body>
+</html>
